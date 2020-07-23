@@ -1,0 +1,14 @@
+//create proj folder
+mkdir jokes
+//folder modularized structure
+cd jokes
+mkdir server
+cd server
+mkdir controllers,routes,config,models
+touch server.js
+//install express and mongoose
+//require it: const mongoose = require('mongoose')
+npm init -y # the -y part just says `yes` to all of the prompts
+npm i express cors mongoose
+//change json package to nodemon
+
